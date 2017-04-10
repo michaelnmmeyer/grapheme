@@ -35,3 +35,9 @@ And invoke the binary like so:
     गु
     प्
     त
+
+It is assumed that your host programming language encodes its strings as UTF-8.
+If it uses something else, you need to emend the script `mkdata.py` accordingly,
+and then rebuild the grapheme properties file with :
+
+    $ make grapheme_properties.rl
